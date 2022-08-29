@@ -10,7 +10,6 @@ brew 'git-cola'
 brew 'mongodb'
 brew 'nvm'
 brew 'mysql@5.7'
-brew 'redis'
 brew 'zsh'
 
 cask 'firefox'
