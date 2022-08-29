@@ -59,13 +59,13 @@ cask 'google-chrome'
 | [Visual Studio Code](https://code.visualstudio.com/) | |
 | [zeplin](https://zeplin.io/) | 設計協作工具 |
 
-### iterm2 setting
+## iterm2 setting
 
 參考 `iterm` 內檔案
 
-### 額外設定指令
+## 額外設定指令
 
-設定zsh為預設
+設定zsh為預設shell
 ```
 chsh -s $(which zsh)
 ```
