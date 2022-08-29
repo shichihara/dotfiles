@@ -150,11 +150,13 @@ install_dependencies() {
 }
 
 import_vscode_settings() {
-  info "Importing vscode settings"
-
-  cp "vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-
+  # install vscode ententions
+  info "Installing vscode extension"
   source vscode/extention
+
+  # import vscode settings
+  info "Import vscode settings"
+  cp "vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 }
 
 install_homebrew
