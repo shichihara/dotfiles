@@ -59,7 +59,6 @@ cask 'google-chrome'
 | [Visual Studio Code](https://code.visualstudio.com/) | |
 | [zeplin](https://zeplin.io/) | 設計協作工具 |
 
-
 ### iterm2 setting
 
 參考 `iterm` 內檔案
@@ -75,7 +74,6 @@ nvm設定預設開啟node版本
 ```
 nvm alias default {version}
 ```
-
 
 ## References
  - [如何優雅地在 Mac 上使用 dotfiles?](https://segmentfault.com/a/1190000002713879) [[github](https://github.com/amowu/dotfiles)]
