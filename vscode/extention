@@ -1,0 +1,15 @@
+#!/bin/bash
+
+code --install-extension alefragnani.project-manager
+code --install-extension anseki.vscode-color
+code --install-extension cssho.vscode-svgviewer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dnicolson.binary-plist
+code --install-extension dotiful.dotfiles-syntax-highlighting
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension eamodio.gitlens
+code --install-extension mhutchie.git-graph
+code --install-extension MS-CEINTL.vscode-language-pack-zh-hant
+code --install-extension peakchen90.open-html-in-browser
+code --install-extension rangav.vscode-thunder-client
+code --install-extension sysoev.language-stylus

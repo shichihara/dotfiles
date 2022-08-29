@@ -7,7 +7,6 @@ tap 'homebrew/bundle'
 
 brew 'bash'
 brew 'git-cola'
-brew 'mackup'
 brew 'mongodb'
 brew 'nvm'
 brew 'mysql@5.7'

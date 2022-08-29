@@ -7,7 +7,7 @@ DOTFILES_ROOT=$(pwd -P)
 
 set -e
 
-echo ''
+echo ""
 
 fail() {
 	# Print output in red
@@ -149,10 +149,19 @@ install_dependencies() {
   fi
 }
 
+import_vscode_settings() {
+  info "Importing vscode settings"
+
+  cp "vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+
+  source vscode/extention
+}
+
 install_homebrew
 install_dependencies
 install_ohmyzsh
 install_dotfiles
+import_vscode_settings
 
-echo ''
-echo 'All installed!'
+echo ""
+echo "All installed. Enjoy coding!"
